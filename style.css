@@ -256,3 +256,32 @@ button[type="cancel"] {
     background-color: white;
     letter-spacing: 0.2rem;
 }
+@media (max-width: 720px) {
+    .list{
+        flex-wrap: wrap;
+    }
+    .card img{
+        height: 3rem;
+    }
+    .card{
+        padding: 0rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 9rem;
+    }
+    #listspec{
+        margin: 0.5rem;
+    }
+    .features{
+        height: 100vh;
+    }
+    .models{
+        height: 160vh;
+    }
+    .slider img{
+        height: 200px;
+    }
+    .item {
+        margin-left: 1rem;
+        margin-right: 1rem;}
+}
