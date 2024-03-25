@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mustang-A quality </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arya:wght@400;700&family=Pathway+Gothic+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+    <div class="nav">
+        <ul>
+            <li class="item"><a href="#hero">HOME</a></li>
+            <li class="item"><a href="#SPECS">SPECS</a></li>
+            <li class="item"><a href="#models">PRICE</a></li>
+            <li class="item"><a href="#updates">GET UPDATES</a></li>
+        </ul>
+    </div>
+
+    <div class="hero" id="hero">
+        <p class="tag">Where <a>Speed</a> Meets Precision</p>
+        <p class="desc">Explore our diverse selection of top-tier vehicles and experience automtive excellence first
+            hand.</p>
+
+        <div class="btn">
+            <a href="#SPECS" class="scroll"><img src="Assets/down arrow.png" alt="Scroll Down"
+                    onmouseover="hover(this);" onmouseout="hoverOut(this)"></a>
+        </div>
+    </div>
+
+    <div class="features" id="SPECS">
+
+        <div class="text">
+            <p class="tag">We Have <a >Best</a> Features</p>
+            <p class="desc"></p>
+        </div>
+
+        <div class="list">
+
+            <li class="dots active" id="listspec" onclick="Change('Assets/img1.png')" ><img id="specList"
+                    src="Assets/engine.png" alt="Engine"> Engine</li>
+            <li class="dots" id="listspec" onclick="Change('Assets/img2.jpg')"><img id="specList" src="Assets/torque.png" alt="Torque">
+                Torque</li>
+            <li class="dots" id="listspec" onclick="Change('Assets/img3.jpg')"><img id="specList" src="Assets/driveType.png"
+                    alt="Drive Type"> Drive Type</li>
+            <li class="dots" id="listspec" onclick="Change('Assets/img4.jpg')"><img id="specList" src="Assets/rating.png"
+                    alt="NCAP">Global NCAP Rating</li>
+            <li class="dots" id="listspec" onclick="Change('Assets/img5.jpg')"><img id="specList" src="Assets/power.png"
+                    alt="power">Power</li>
+            <li class="dots" id="listspec" onclick="Change('Assets/img6.jpg')"><img id="specList" src="Assets/seat.png"
+                    alt="seating">Seating</li>
+
+        </div>
+
+        <div class="slider">
+            <img id="bannerImg" src="Assets/img1.png" alt="Click On engine">
+        </div>
+
+        
+       
+
+
+    </div>
+    
+ 
+<div class="models" id="models">
+    <div class="heading">
+        <h1 class="tag">Models <a >&</a> Prices.</h1>
+
+        <div class="cards">
+            <div class="card">
+                <img src="Assets/mustang.png" alt="Mustang">
+                <hr>
+                <p id="title">2024 Mustang EcoBoost Fastback</p>
+                <hr>
+                <p id="price">Starting at $30,920</p>
+            </div>
+        
+            <div class="card">
+                <img src="Assets/mustang1.png" alt="Mustang">
+                <hr>
+                <p id="title">2024 Mustang® EcoBoost® Premium Fastback</p>
+                <hr>
+                <p id="price">Starting at $36,445 </p>
+            </div>
+
+            <div class="card">
+                <img src="Assets/mustang.png" alt="Mustang">
+                <hr>
+                <p id="title">2024 Mustang® EcoBoost® Convertible</p>
+                <hr>
+                <p id="price">Starting at $39,020 </p>
+            </div>
+            <div class="card">
+                <img src="Assets/mustang2.png" alt="Mustang">
+                <hr>
+                <p id="title">2024 Mustang® EcoBoost® Premium Convertible</p>
+                <hr>
+                <p id="price">Starting at $41,945 </p>
+            </div>
+            <div class="card">
+                <img src="Assets/mustang3.png" alt="Mustang">
+                <hr>
+                <p id="title">2024 Mustang® GT Fastback</p>
+                <hr>
+                <p id="price">Starting at $41,960 </p>
+            </div>
+            <div class="card">
+                <img src="Assets/mustang1.png" alt="Mustang">
+                <hr>
+                <p id="title">2024 Mustang® GT Premium Fastback</p>
+                <hr>
+                <p id="price">Starting at $46,480 </p>
+            </div>
+            <div class="card">
+                <img src="Assets/mustang.png" alt="Mustang">
+                <hr>
+                <p id="title">2024 Mustang® GT Premium Convertible</p>
+                <hr>
+                <p id="price">Starting at $51,980 </p>
+            </div>
+            <div class="card">
+                <img src="Assets/mustang2.png" alt="Mustang">
+                <hr>
+                <p id="title">2024 Mustang® Dark Horse™</p>
+                <hr>
+                <p id="price">Starting at $58,185 </p>
+            </div>
+            <div class="card">
+                <img src="Assets/mustang3.png" alt="Mustang">
+                <hr>
+                <p id="title">2024 Mustang® Dark Horse™ Premium</p>
+                <hr>
+                <p id="price">Starting at $62,180 </p>
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
+<div class="updates" id="updates">
+
+    <hi class="tag">GET UPDATES</hi>
+
+    <div class="form">
+        <form action="">
+            <label for="first">First Name</label><input type="text">
+            <br>
+            <label for="last">Last Name</label><input type="text">
+            <br>
+            <label for="number">Zip Code</label><input type="number">
+            <br>
+            <label for="email">Email</label><input type="email">
+            <label for="vehicles">Preferred vehicle:</label>
+            <select name="vehicles" id="vehicles">
+                <option value="mustang">2024 Mustang EcoBoost Fastback</option>
+                <option value="mustang">2024 Mustang® EcoBoost® Premium Fastback</option>
+                <option value="mustang">2024 Mustang® EcoBoost® Convertible</option>
+                <option value="mustang">2024 Mustang® EcoBoost® Premium Convertible</option>
+                <option value="mustang">2024 Mustang® GT Fastback</option>
+                <option value="mustang">2024 Mustang® GT Premium Fastback</option>
+                <option value="mustang">2024 Mustang® GT Premium Convertible</option>
+                <option value="mustang">2024 Mustang® Dark Horse™</option>
+                <option value="mustang">2024 Mustang® Dark Horse™ Premium</option>
+            </select>
+            <button>Submit</button>
+            <button>Cancel</button>
+        </form>
+    </div>
+</div>
+
+<div class="footer">
+    &#169;2024 Mustang , An Automobile Company, USA , ALL Rights Reserved
+</div>
+
+</body>
+
+</html>
